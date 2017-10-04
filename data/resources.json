@@ -1,13 +1,13 @@
 {
-  "title": "GDG DevFest Season 2016",
-  "description": "The biggest Google tech conference in Ukraine carefully crafted for you by GDG community! All about Android, Web and Cloud from the world experts",
+  "title": "DevFest Neuquen 2017",
+  "description": "DevFest Neuquen 2017 es nuestra conferencia anual de desarrolladores que dura todo el dia, y que ofrece sesiones de Speakers de múltiples áreas de productos y más!",
   "keywords": "event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev",
-  "dates": "September 9-10, 2016",
+  "dates": "Sabado 11 Noviembre 2017",
   "locationAddressShort": "Lviv, Ukraine",
   "motto": "Be a GDG. Be a Hero!",
   "playIcon": "See how it was in 2015",
   "c4p": "Become a speaker",
-  "buyTicket": "Buy ticket",
+  "buyTicket": "Inscribirse",
   "backToTop": "Back to top",
   "subscribe": "Subscribe",
   "yourEmail": "Your email",
@@ -21,8 +21,8 @@
   "socialMotto": "Add to circles, like, follow or connect with us on",
   "beforeHashtag": "What's up",
   "clickToViewPhotos": "Click here to view more photos",
-  "partners": "Partners",
-  "becomePartner": "Become a partner",
+  "partners": "Auspiciantes",
+  "becomePartner": "Quiero ser Auspiciante",
   "featuredVideosTitle": "Featured #DFUA '15 Sessions",
   "featuredVideosViewAll": "View all videos",
   "featuredPeopleTitle": "Rockstar Speakers",
@@ -118,24 +118,24 @@
       }
     ]
   },
-  "teamPageTitle": "Team",
+  "teamPageTitle": "Equipo",
   "teamPageText": "Google is known all around the world. Everyone is 'googling', checking on 'maps' and communicating in 'gmail'. For simple users, they are services that just works, but not for us. Developers see much more: APIs, scalability issues, complex technology stacks. And that is what GDG is about.<br><br> [Google Developers Group (GDG) Lviv](http://lviv.gdg.org.ua/) - is open and volunteer geek community who create exciting projects and share experience about Google technologies with a passion.<br><br> Our goal is to organize space to connect the best industry experts with Ukrainian audience to boost development of IT.",
   "statistics": [
     {
-      "counter": 600,
-      "caption": "Attendees"
+      "counter": 200,
+      "caption": "Participantes"
     },
     {
-      "counter": 2,
-      "caption": "Days"
+      "counter": 1,
+      "caption": "Dia a Full"
     },
     {
-      "counter": 30,
-      "caption": "Sessions"
+      "counter": 10,
+      "caption": "Sesiones"
     },
     {
-      "counter": 3,
-      "caption": "Tracks"
+      "counter": 9,
+      "caption": "Horas para Aprender"
     }
   ],
   "callToAction": {

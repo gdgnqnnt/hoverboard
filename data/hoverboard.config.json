@@ -7,19 +7,19 @@
     "dev": "UA-43643469-9"
   },
   "organizer": {
-    "name": "GDG Lviv",
-    "twitter": "gdglviv"
+    "name": "GDG Neuquen",
+    "twitter": "gdgneuquen"
   },
   "webapp": {
-    "shortName": "DevFest",
+    "shortName": "DevFest NQN",
     "themeColor": "#F57C00",
     "backgroundColor": "#F57C00"
   },
   "firebase": {
-    "name": "hoverboard-master",
-    "domain": "hoverboard-master.firebaseapp.com",
-    "database": "https://hoverboard-master.firebaseio.com",
-    "api": "AIzaSyCaSkhtHekxAqXXzzbuNs2s6CpGdhZdta8",
+    "name": "hoverboard-masterr",
+    "domain": "hoverboard-masterr.firebaseapp.com",
+    "database": "https://hoverboard-masterr.firebaseio.com",
+    "api": "AIzaSyCaSkhtHekxAqXXzzbuNs2s6CpGdhZdta800",
     "userSessionsPath": "/userSessions",
     "ratingsPath": "/ratings",
     "indexedDbSession": "hoverboard"
@@ -44,10 +44,6 @@
       "permalink": "/"
     },
     {
-      "route": "blog",
-      "permalink": "/blog/"
-    },
-    {
       "route": "schedule",
       "permalink": "/schedule/"
     },
@@ -63,8 +59,8 @@
   "social": [
     {
       "name": "twitter",
-      "nickname": "GDGLviv",
-      "url": "https://twitter.com/gdglviv"
+      "nickname": "gdgneuquen",
+      "url": "https://twitter.com/gdgneuquen"
     },
     {
       "name": "gplus",
@@ -84,17 +80,17 @@
   ],
   "location": {
     "apiKey": "",
-    "name": "Pivdennyi Expo Center",
-    "address": "36 Shchyretska St, Lviv, Ukraine",
-    "link": "https://www.facebook.com/expopivdennij",
+    "name": "Universidad Nacional del Comahue",
+    "address": "Buenos Aires 1400, Neuquen, Argentina",
+    "link": "https://www.facebook.com/pages/Universidad-Nacional-del-Comahue",
     "pointer": {
-      "latitude": 49.809841,
-      "longitude": 23.972805,
+      "latitude": -38.9401499,
+      "longitude": -68.0595466,
       "zoom": 15
     },
     "mapCenter": {
-      "latitude": 49.809841,
-      "longitude": 23.982805
+      "latitude": -38.9401499,
+      "longitude": -68.0595466
     },
     "images": [
       "/images/backgrounds/location_1.jpg",
