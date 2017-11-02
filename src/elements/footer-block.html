@@ -46,6 +46,7 @@
         height: 24px;
         width: 120px;
         display: block;
+        background: black;
       }
 
       a {
@@ -165,12 +166,12 @@
 
     <div class="container">
       <div class="footer-content">
-        <iron-image
+        <!--iron-image
           class="gdg-logo"
-          src="/images/gdg-logo.svg"
+          src="/images/logo-light.svg"
           sizing="contain"
           alt="{$ organizer.name $}"
-        ></iron-image>
+        ></iron-image-->
         <paper-button class="footer-backtotop" on-tap="scrollToTop" noink>
           {$ backToTop $}
           <iron-icon icon="icons:expand-less"></iron-icon>
@@ -178,6 +179,7 @@
       </div>
       <div class="footer-content footer-links-container">
         <nav class="navigation">
+          <!--
           {% for block in footerBlocks %}
             <div class="link-block-wrapper">
               <div class="link-block-title">{$ block.title $}</div>
@@ -190,15 +192,16 @@
               </ul>
             </div>
           {% endfor %}
+          -->
           <div class="link-block-wrapper">
             <div class="link-block-title">{$ contactUs $}</div>
-            <ul class="link-block">
+            <!--ul class="link-block">
               {% for link in contactBlock.links %}
                 <li>
                   <a href="{$ link.url $}" {% if link.newTab %}target="_blank" rel="noopener noreferrer"{% endif %}>{$ link.text $}</a>
                 </li>
               {% endfor %}
-            </ul>
+            </ul-->
             <div class="icons-wrapper align-pb-block">
               {% for network in social %}
                 <a class="button-link" href="{$ network.url $}" target="_blank" rel="noopener noreferrer">
@@ -207,7 +210,7 @@
               {% endfor %}
             </div>
           </div>
-          <div class="subscribe">
+          <!--div class="subscribe">
             <div class="link-block-title">{$ subscribe $}</div>
             <span>{$ subscribeNote $}</span>
             <mailchimp-subscribe
@@ -215,7 +218,7 @@
               url="{$ mailchimp.url $}"
               name="{$ mailchimp.name $}"
             ></mailchimp-subscribe>
-          </div>
+          </div-->
         </nav>
       </div>
       <div class="footer-content footer-bottom">
@@ -224,7 +227,8 @@
           &copy; 2016 Based on <a href="https://github.com/gdg-x/hoverboard" target="_blank" rel="noopener noreferrer">Project
           Hoverboard</a>. Designed and created by <a href="http://o.zasadnyy.com/" target="_blank" rel="noopener noreferrer">Oleh
           Zasadnyy</a> &middot;
-          <a href="http://lviv.gdg.org.ua" target="_blank" rel="noopener noreferrer">GDG Lviv</a>
+          <a href="http://lviv.gdg.org.ua" target="_blank" rel="noopener noreferrer">GDG Lviv</a><br>
+          Adaptado para DevFest GDG Neuquen 2017 por <a href="https://twitter.com/geroblacksmith">Gerardo Herrera</a>
         </div>
         <div class="gplus">
           <g:plusone

@@ -1,7 +1,7 @@
 {
   "url": "https://hoverboard.firebaseapp.com/",
-  "startDate": "2017-11-11T09:00:00-03:00",
-  "endDate": "2017-11-11T19:00:00-03:00",
+  "startDate": "2016-09-09T09:00:00+03:00",
+  "endDate": "2016-09-10T19:00:00+03:00",
   "analytics": {
     "prod": "UA-43643469-8",
     "dev": "UA-43643469-9"
@@ -43,24 +43,10 @@
       "route": "home",
       "permalink": "/"
     },
-    {
-      "route": "schedule",
-      "permalink": "/schedule/"
-    },
-    {
-      "route": "speakers",
-      "permalink": "/speakers/"
-    },
-    {
-      "route": "team",
-      "permalink": "/team/"
-    },
+    
     {
       "route":"",
       "permalink":"/"
-    },{
-      "route":"prueba",
-      "permalink":"/prueba/"
     }
   ],
   "social": [
@@ -78,11 +64,6 @@
       "name": "facebook",
       "nickname": "GDG Neuquén",
       "url": "https://www.facebook.com/gdgneuquen/"
-    },
-    {
-      "name": "linkedin",
-      "nickname": "google-developers-group-lviv",
-      "url": "https://www.linkedin.com/company/google-developers-group-lviv"
     }
   ],
   "location": {
@@ -106,12 +87,12 @@
     ]
   },
   "gallery": {
-    "albumUrl": "https://plus.google.com/events/gallery/cc6tosp4ohkp6qj9pg5jb4g6o3k?sort=1",
+    "albumUrl": "https://www.meetup.com/es-ES/gdgneuquen/photos/",
     "photos": {
-      "big": "/images/backgrounds/2015_1.jpg",
+      "big": "/images/backgrounds/gdgnqn/gdgnqn_2.jpeg",
       "small": [
-        "/images/backgrounds/2015_2.jpg",
-        "/images/backgrounds/2015_3.jpg"
+        "/images/backgrounds/gdgnqn/gdgnqn_3.jpeg",
+        "/images/backgrounds/gdgnqn/gdgnqn_1.jpeg"
       ]
     }
   },
