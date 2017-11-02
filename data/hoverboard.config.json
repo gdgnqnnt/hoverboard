@@ -16,13 +16,13 @@
     "backgroundColor": "#F57C00"
   },
   "firebase": {
-    "name": "hoverboard-masterr",
+    "name": "devfest-neuquen",
     "domain": "devfest-neuquen.firebaseapp.com",
     "database": "https://devfest-neuquen.firebaseio.com",
     "api": "AIzaSyAKiwnwAIW1WBrOAH0hZsvn90GH9Lf5N8g",
     "userSessionsPath": "/userSessions",
     "ratingsPath": "/ratings",
-    "indexedDbSession": "hoverboard"
+    "indexedDbSession": "devfest-neuquen"
   },
   "mailchimp": {
     "url": "https://gdg.us11.list-manage.com/subscribe/post?u=b7e853a79164ddfdbda3ed77b&amp;id=7993e39fbe",
