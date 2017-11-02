@@ -1,7 +1,7 @@
 {
   "url": "https://hoverboard.firebaseapp.com/",
-  "startDate": "2016-09-09T09:00:00+03:00",
-  "endDate": "2016-09-10T19:00:00+03:00",
+  "startDate": "2017-11-11T09:00:00-03:00",
+  "endDate": "2017-11-11T19:00:00-03:00",
   "analytics": {
     "prod": "UA-43643469-8",
     "dev": "UA-43643469-9"
@@ -17,9 +17,9 @@
   },
   "firebase": {
     "name": "hoverboard-masterr",
-    "domain": "hoverboard-masterr.firebaseapp.com",
-    "database": "https://hoverboard-masterr.firebaseio.com",
-    "api": "AIzaSyCaSkhtHekxAqXXzzbuNs2s6CpGdhZdta800",
+    "domain": "devfest-neuquen.firebaseapp.com",
+    "database": "https://devfest-neuquen.firebaseio.com",
+    "api": "AIzaSyAKiwnwAIW1WBrOAH0hZsvn90GH9Lf5N8g",
     "userSessionsPath": "/userSessions",
     "ratingsPath": "/ratings",
     "indexedDbSession": "hoverboard"
@@ -29,7 +29,7 @@
     "name": "b_b7e853a79164ddfdbda3ed77b_7993e39fbe"
   },
   "dateFormat": {
-    "locale": "en-US",
+    "locale": "es-AR",
     "blog": {"month": "short", "day": "numeric", "year": "numeric"}
   },
   "hashtag": "dfua",
@@ -54,6 +54,13 @@
     {
       "route": "team",
       "permalink": "/team/"
+    },
+    {
+      "route":"",
+      "permalink":"/"
+    },{
+      "route":"prueba",
+      "permalink":"/prueba/"
     }
   ],
   "social": [
@@ -69,8 +76,8 @@
     },
     {
       "name": "facebook",
-      "nickname": "GDGLviv",
-      "url": "https://www.facebook.com/GDGLviv"
+      "nickname": "GDG Neuquén",
+      "url": "https://www.facebook.com/gdgneuquen/"
     },
     {
       "name": "linkedin",
@@ -93,9 +100,9 @@
       "longitude": -68.0595466
     },
     "images": [
-      "/images/backgrounds/location_1.jpg",
-      "/images/backgrounds/location_2.jpg",
-      "/images/backgrounds/location_3.jpg"
+      "/images/backgrounds/unco/location_1.png",
+      "/images/backgrounds/unco/location_2.jpg",
+      "/images/backgrounds/unco/location_3.jpg"
     ]
   },
   "gallery": {
@@ -114,12 +121,12 @@
       "headerSettings": {
         "backgroundColor": "#FF9800",
         "backgroundImage": "/images/backgrounds/home.png",
-        "fontColor": "#fff",
-        "tabBarColor": "#fff",
+        "fontColor": "#000",
+        "tabBarColor": "#000",
         "video": {
-          "title": "GDG DevFest Ukraine 2016",
-          "youtubeId": "TdpbgRgz6eE",
-          "text": "See how it was in 2016"
+          "title": "GDG DevFest Neuquen 2017",
+          "youtubeId": "MwIkJnZ6PFc",
+          "text": "Mirá un video de presentacion"
         },
         "hideLogo": true,
         "minHeight": "360px"
@@ -142,7 +149,7 @@
       }
     },
     "schedule": {
-      "title": "Schedule",
+      "title": "Agenda",
       "headerSettings": {
         "backgroundColor": "#673ab7",
         "fontColor": "#fff",
@@ -150,7 +157,7 @@
       }
     },
     "team": {
-      "title": "Team",
+      "title": "Equipo",
       "headerSettings": {
         "backgroundColor": "#009688",
         "fontColor": "#fff",
@@ -158,7 +165,7 @@
       }
     },
     "cod": {
-      "title": "Cod of Conduct",
+      "title": "Terminos de conducta",
       "headerSettings": {
         "backgroundColor": "#673ab7",
         "fontColor": "#fff",
