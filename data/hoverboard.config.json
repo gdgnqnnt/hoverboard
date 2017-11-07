@@ -43,6 +43,10 @@
       "route": "home",
       "permalink": "/"
     },
+    {
+      "route": "agenda",
+      "permalink": "/schedule"
+    },
     
     {
       "route":"",

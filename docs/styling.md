@@ -38,6 +38,7 @@ Additionally it's possible to edit/add tags which is used on speakers and sessio
 ```
 /* Tags colors */
 --general: #bdbdbd;
+--angular: #ff000;
 --android: #78c257;
 --web: #2196f3;
 --cloud: #3f51b5;
