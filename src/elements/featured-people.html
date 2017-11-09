@@ -92,7 +92,7 @@
     <div class="container">
       <h4 class="heading">{$ featuredPeopleTitle $}</h4>
       <div class="people-wrapper">
-        <template is="dom-repeat" items="[[featuredPeople]]" as="person">
+        <template is="dom-repeat" items="[[featuredPeople]]" as="person" >
           <a href$="/speakers/[[person.id]]" class="person">
             <iron-image
               class="photo"
@@ -146,8 +146,12 @@
             }
           }
           this.featuredPeople = this._randomOrder(filteredPeople).slice(0, 4);
+        },
+        isFeatured: function(featuredPeople){
+          if(featuredPeople.featured){
+            return featuredPeople;
+          }
         }
-
       });
 
     }());
