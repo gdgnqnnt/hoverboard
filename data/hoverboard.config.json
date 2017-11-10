@@ -47,7 +47,10 @@
       "route": "schedule",
       "permalink": "/schedule/day1"
     },
-    
+    {
+      "route": "speakers",
+      "permalink": "/speakers/"
+    },
     {
       "route":"",
       "permalink":"/"
