@@ -70,7 +70,7 @@
       }
 
       .logo {
-        background: rgb(0,0,0,0.5);
+        /*background: rgb(0,0,0,0.5);*/
         width: 240px;
         min-height: 80px;
       }
@@ -78,7 +78,9 @@
       .dates {
         font-size: 20px;
         text-transform: uppercase;
-       /* background: rgb(255,255,255,0.7);*/
+        background: rgb(255,255,255,0.7);
+        color: blue;
+        width: 10em;
         
       }
 
@@ -133,7 +135,7 @@
         <animatable-content name="home">
           <div class="container" center-justified>
             <div class="home-wrapper">
-              <iron-image class="logo" src="/images/logo-light.svg" sizing="contain"
+              <iron-image class="logo" src="/images/logos/gdgneuquen.svg" sizing="contain"
                           alt="GDG DevFest Neuquen 2017"></iron-image>
               <h3 class="dates">{$ dates $}</h3>
               <h2 class="motto">{$ motto $}</h2>
